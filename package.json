@@ -2,6 +2,7 @@
   "name": "pcf-project",
   "version": "1.0.0",
   "description": "Project containing your PowerApps Component Framework (PCF) control.",
+  "type": "module",
   "scripts": {
     "build": "pcf-scripts build",
     "clean": "pcf-scripts clean",
@@ -13,8 +14,9 @@
     "refreshTypes": "pcf-scripts refreshTypes"
   },
   "dependencies": {
-    "react": "16.14.0",
     "@fluentui/react-components": "9.68.0",
+    "chart.js": "^4.5.1",
+    "react": "16.14.0",
     "react-dom": "16.14.0"
   },
   "devDependencies": {
